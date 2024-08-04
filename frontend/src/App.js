@@ -3,7 +3,9 @@ import { UserInfo } from './components/UserInfo';
 function App() {
   return (
     <>
-    <UserInfo></UserInfo>
+      <div className='app-container'>
+        <UserInfo></UserInfo>
+      </div>
     </>
   );
 }

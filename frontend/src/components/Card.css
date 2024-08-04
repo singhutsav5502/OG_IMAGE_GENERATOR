@@ -1,5 +1,6 @@
 .card-outer-container{
+    display: inline-block;
     background-color: var(--primary-background);
     border-radius: 16px;
-    box-shadow: 1px 1px solid var(--primary-shadow);
+    box-shadow: 1px 1px 1px var(--primary-shadow);
 }

@@ -1,0 +1,26 @@
+.user-card{
+    padding-top:5vh;
+    padding-left:2vw;
+    display: inline-block;
+}
+.user-info{
+    padding: 2vh;
+    display: flex;
+    align-items: center;
+    gap:2vw;
+}
+.user-info img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+}
+
+.user-info input[type="text"]{
+    border: none;
+    background-color: rgba(0,0,0,0);
+    color:var(--primary-text);
+    font-size: 1.5rem;
+}
+.user-info input[type="text"]:hover{
+    cursor:pointer;
+}
