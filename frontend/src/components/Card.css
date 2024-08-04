@@ -1,0 +1,5 @@
+.card-outer-container{
+    background-color: var(--primary-background);
+    border-radius: 16px;
+    box-shadow: 1px 1px solid var(--primary-shadow);
+}
