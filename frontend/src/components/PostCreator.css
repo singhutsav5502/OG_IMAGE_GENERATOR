@@ -1,0 +1,29 @@
+.post-creator-container{
+    position: relative;
+    top:5vh;
+}
+.post-creator-inner-container{
+    position: relative;
+    top:20vh;
+    min-height:50vh;
+    padding:0px 16px 0px 16px;
+    display: flex;
+    flex-direction: column;
+    gap:20vh;
+    height: auto;
+    
+}
+.ql-toolbar{
+    border-radius: 8px 8px 0px 0px;
+    border:1px solid var(--border-color) !important;
+}
+#title-box{
+    position: relative;
+    padding: 5px;
+    border-radius: 8px;
+    font-size:3rem;
+    font-weight: bold;
+    border: none;
+    background-color: var(--tertiary-background);
+    box-shadow: 1px 1px 1px var(--primary-shadow);
+}
