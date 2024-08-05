@@ -35,7 +35,7 @@ const PostCreator = () => {
                   await navigator.clipboard.writeText(imageUrl);
                   toast("Image Url copied to clipboard");
                 } catch (err) {
-                  toast.error("Failed to copy image Url to Clipboard");
+                  // toast.error("Failed to copy image Url to Clipboard");
                 }
               };
               copyContent();
