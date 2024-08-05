@@ -22,10 +22,10 @@ const postState = createSlice({
   },
   reducers:{
     setPostTitle:(state,action)=>{
-      state = action.payload
+      state.postTitle = action.payload
     },
     setPostContent:(state,action)=>{
-      state = action.payload
+      state.postContent = action.payload
     }
   }
 })
