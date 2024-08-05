@@ -1,9 +1,9 @@
 import React from 'react';
 import './Card.css';
 
-export const Card = ({ children, width, height }) => {
+export const Card = ({ children, width, height, minHeight }) => {
   return (
-    <div className="card-outer-container" style={{width, height }}>
+    <div className="card-outer-container shadow" style={{width, height, minHeight }}>
       {children}
     </div >
   );

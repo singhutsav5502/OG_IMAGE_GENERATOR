@@ -1,13 +1,13 @@
 .user-card{
-    padding-top:5vh;
-    padding-left:2vw;
+    padding-top:10vh;
+    padding-left:5vw;
     display: inline-block;
 }
 .user-info{
     padding: 2vh;
     display: flex;
     align-items: center;
-    gap:2vw;
+    gap:1vw;
 }
 .user-info img{
     height: 6rem;
@@ -16,10 +16,14 @@
 }
 
 .user-info input[type="text"]{
-    border: none;
+    padding: 2px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px dashed var(--primary-text);
     background-color: rgba(0,0,0,0);
     color:var(--primary-text);
     font-size: 1.5rem;
+    width: 100%;
 }
 .user-info input[type="text"]:hover{
     cursor:pointer;

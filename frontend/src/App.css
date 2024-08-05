@@ -1,4 +1,6 @@
 .app-container{
     height: 100vh;
     background-color: var(--secondary-background);
+    display: flex;
+    gap:15vw;
 }

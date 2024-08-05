@@ -1,11 +1,12 @@
 :root{
     --primary-background : rgb(233, 177, 177);
     --secondary-background: rgb(140, 150, 241);
+    --tertiary-background: rgb(213, 217, 247);
     --primary-shadow: rgb(17, 17, 17);
     --primary-text: rgb(33, 33, 33);
     --secondary-text: rgb(255, 255, 255);
     --highlight-color: rgb(255, 204, 0);
-    --border-color: rgb(200, 200, 200);
+    --border-color: rgb(132, 132, 132);
     --link-color: rgb(0, 102, 204);
 }
 
@@ -14,5 +15,9 @@ html,body{
     padding: 0;
     height: 100%;
     box-sizing: border-box;
+    background-color: var(--secondary-background);
     overflow: hidden;
+}
+.shadow{
+    box-shadow: 1px 1px 1px var(--primary-shadow);
 }
