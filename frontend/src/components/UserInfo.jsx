@@ -16,7 +16,7 @@ export const UserInfo = () => {
       <Card width="25vw" height="auto">
           <div className="user-info">
             <img src={userImage} alt=""  width="100px" height="100px"/>
-            <input type="text" value={userName} onChange={nameChangeHandler} id="user-name-input" name="user-name-input"/>
+            <input type="text" value={userName} onChange={nameChangeHandler} id="user-name-input" name="user-name-input" style={{color:'var(--secondary-text)'}}/>
             {/* <label htmlFor="user-name-input" style={{width:"100px", height:"100px"}}>
               
             </label> */}

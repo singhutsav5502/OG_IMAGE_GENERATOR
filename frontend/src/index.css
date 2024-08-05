@@ -1,5 +1,5 @@
 :root {
-  --primary-background : rgb(233, 177, 177);
+  /* --primary-background : rgb(233, 177, 177);
     --secondary-background: rgb(140, 150, 241);
     --tertiary-background: rgb(213, 217, 247);
     --primary-shadow: rgb(17, 17, 17);
@@ -7,17 +7,19 @@
     --secondary-text: rgb(255, 255, 255);
     --highlight-color: rgb(255, 204, 0);
     --border-color: rgb(132, 132, 132);
-    --link-color: rgb(0, 102, 204);
+    --link-color: rgb(0, 102, 204); */
 
-  /* --primary-background: rgb(255, 255, 255); 
-  --secondary-background: rgb(245, 245, 245); 
-  --tertiary-background: rgb(230, 230, 230); 
-  --primary-shadow: rgb(0, 0, 0); 
-  --primary-text: rgb(0, 0, 0); 
-  --secondary-text: rgb(255, 255, 255); 
-  --highlight-color: rgb(192, 192, 192); 
+  --primary-background: rgb(48, 46, 54);
+  --secondary-background: rgb(32, 30, 30);
+  --tertiary-background: rgb(230, 230, 230);
+  --primary-shadow: rgb(0, 0, 0);
+  --primary-text: rgb(0, 0, 0);
+  --secondary-text: rgb(146, 227, 203);
+  --highlight-color: rgb(197, 227, 218);
+  --toastify-color-dark: rgb(197, 227, 218) !important;
   --border-color: rgb(128, 128, 128);
-  --link-color: rgb(0, 0, 0); */
+  --link-color: rgb(0, 0, 0);
+
 
   /* --primary-background: rgb(0, 0, 0);
   --secondary-background: rgb(34, 34, 34);
@@ -30,8 +32,8 @@
   --link-color: rgb(255, 255, 255);  */
 }
 * {
-  font-family: sans-serif;
-  color:var(--primary-text);
+  font-family: monospace;
+  color: var(--primary-text);
 }
 html,
 body {

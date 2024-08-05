@@ -11,7 +11,7 @@
 }
 .post-creator-inner-container{
     position: relative;
-    top:15vh;
+    top:10vh;
     min-height:50vh;
     padding:0px 16px 0px 16px;
     display: flex;
@@ -23,6 +23,10 @@
 .ql-toolbar{
     border-radius: 8px 8px 0px 0px;
     border:1px solid var(--border-color) !important;
+    /* background-color: var(--secondary-background); */
+}
+.ql-toolbar span{
+    color:var(--highlight-color) !important;
     background-color: var(--secondary-background);
 }
 #title-box{
@@ -35,4 +39,9 @@
     border: none;
     background-color: var(--tertiary-background);
     box-shadow: 1px 1px 1px var(--primary-shadow);
+}
+.generate-button:hover{
+    background-color: var(--tertiary-background) !important;
+    color: var(--primary-text) !important;
+    transition: 0.2s all ease-in-out;
 }

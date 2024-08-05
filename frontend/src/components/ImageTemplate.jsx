@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import './ImageTemplate.css'
+import "./ImageTemplate.css";
 const ImageTemplate = () => {
   const userName = useSelector((state) => state.userState.userName);
   const userImage = useSelector((state) => state.userState.userImage);
@@ -10,6 +10,7 @@ const ImageTemplate = () => {
     <div
       id="image-template"
       style={{
+        position: "relative",
         width: "1200px",
         height: "630px",
         background: "#f0f0f0",
@@ -17,15 +18,15 @@ const ImageTemplate = () => {
         boxSizing: "border-box",
         overflow: "hidden",
         backgroundColor: "var(--tertiary-background)",
-        borderRadius: "16px",
       }}
     >
+      <div className="vignette"></div>
       <div
         width="100%"
         height="auto"
         style={{
           backgroundColor: "var(--primary-background)",
-          borderRadius: "8px",
+
         }}
       >
         <div
@@ -36,16 +37,24 @@ const ImageTemplate = () => {
           }}
         >
           <img src={userImage} alt="" width="20px" height="20px" />
-          <p style={{ fontSize: "3rem", lineHeight: "1" }}>{userName}</p>
+          <p
+            style={{
+              fontSize: "3rem",
+              lineHeight: "1",
+              color: "var(--secondary-text)",
+            }}
+          >
+            {userName}
+          </p>
         </div>
       </div>
-      <div className="vignette"></div>
-      <div style={{padding:'20px'}}>
+      <div style={{ padding: "20px" }}>
         <h1 style={{ fontSize: "3rem" }}>{postTitle}</h1>
-        <div dangerouslySetInnerHTML={{ __html: postContent }} className="post-content-template"/>
+        <div
+          dangerouslySetInnerHTML={{ __html: postContent }}
+          className="post-content-template"
+        />
       </div>
-
-
     </div>
   );
 };

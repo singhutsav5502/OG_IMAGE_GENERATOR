@@ -3,10 +3,14 @@
     height: auto;
 }
 .vignette{
+    border-radius: none;
+    scale: 2;
     background: linear-gradient(0deg, rgb(134, 134, 134), rgba(138, 138, 138,0.2) 80%) no-repeat;
     position: absolute;
     bottom: 0;
-    width: 1200px;
+    top:0;
+    left:0;
+    right: 0;
     height: 630px;
 
 }

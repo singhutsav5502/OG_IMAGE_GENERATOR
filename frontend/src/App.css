@@ -2,5 +2,6 @@
     height: 100vh;
     background-color: var(--secondary-background);
     display: flex;
-    gap:15vw;
+    justify-content:space-around;
+    gap:5vw;
 }
