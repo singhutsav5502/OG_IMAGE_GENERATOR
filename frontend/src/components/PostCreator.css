@@ -2,24 +2,33 @@
     position: relative;
     top:5vh;
 }
+.post-creator-title{
+    position: relative;
+    top:5vh;
+    margin: auto;
+    font-size: 4rem;
+    text-align: center;
+}
 .post-creator-inner-container{
     position: relative;
-    top:20vh;
+    top:15vh;
     min-height:50vh;
     padding:0px 16px 0px 16px;
     display: flex;
     flex-direction: column;
-    gap:20vh;
+    gap:5vh;
     height: auto;
     
 }
 .ql-toolbar{
     border-radius: 8px 8px 0px 0px;
     border:1px solid var(--border-color) !important;
+    background-color: var(--secondary-background);
 }
 #title-box{
     position: relative;
     padding: 5px;
+    padding-left:1vw;
     border-radius: 8px;
     font-size:3rem;
     font-weight: bold;

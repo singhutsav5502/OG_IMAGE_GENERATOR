@@ -1,0 +1,12 @@
+.post-content-template img{
+    max-width: 1160px;
+    height: auto;
+}
+.vignette{
+    background: linear-gradient(0deg, rgb(134, 134, 134), rgba(138, 138, 138,0.2) 80%) no-repeat;
+    position: absolute;
+    bottom: 0;
+    width: 1200px;
+    height: 630px;
+
+}
